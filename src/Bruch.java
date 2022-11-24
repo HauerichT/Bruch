@@ -6,7 +6,6 @@ public class Bruch {
 
     // Konstruktor für Bruch
     public Bruch (int zaehler, int nenner) {
-
         // prüft, ob der Nenner gleich 0 ist
         if (nenner == 0) {
             System.out.println("Es darf nicht durch 0 geteilt werden.");
