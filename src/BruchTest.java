@@ -2,10 +2,10 @@ public class BruchTest {
     public static void main(String[] args) {
 
         // Testbrüche
-        Bruch a = new Bruch(5,3);
-        Bruch f = new Bruch(2, 2);
+        Bruch a = new Bruch(7,5);
+        Bruch f = new Bruch(3, 2);
 
-        // Ausgabe der Brüche zur Berechnung
+        // Ausgabe der Brüche zur Übersicht
         System.out.println("Bruch 1: " + a);
         System.out.println("Bruch 2: " + f + '\n');
 

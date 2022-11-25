@@ -5,7 +5,7 @@ public class Bruch {
     private int nenner;
 
     // Konstruktor für Bruch
-    public Bruch (int zaehler, int nenner) {
+    public Bruch(int zaehler, int nenner) {
         // prüft, ob der Nenner gleich 0 ist
         if (nenner == 0) {
             System.out.println("Es darf nicht durch 0 geteilt werden.");
@@ -28,7 +28,7 @@ public class Bruch {
     }
 
     // Addition von zwei Brüchen
-    public Bruch add (Bruch f) {
+    public Bruch add(Bruch f) {
         // berechnet den Zähler
         int newZaehler = (zaehler * f.nenner) + (f.zaehler * nenner);
         // berechnet den Nenner
@@ -39,7 +39,7 @@ public class Bruch {
     }
 
     // Multiplikation von zwei Brüchen
-    public Bruch multiply (Bruch f) {
+    public Bruch multiply(Bruch f) {
         // berechnet den Zähler
         int newZaehler = (zaehler * f.zaehler);
 
@@ -51,7 +51,7 @@ public class Bruch {
     }
 
     // gibt Zähler und Nenner als String zurück
-    public String toString () {
+    public String toString() {
         return zaehler + "/" + nenner;
     }
 
