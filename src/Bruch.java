@@ -34,6 +34,12 @@ public class Bruch {
         // berechnet den Nenner
         int newNenner = (f.nenner * nenner);
 
+        // Berücksichtigung von negativen Brüchen
+        if(newZaehler < 0 && newNenner < 0) {
+            newZaehler = newZaehler * -1;
+            newNenner = newNenner * -1;
+        }
+
         // erzeugt neues Bruch-Objekt und gibt dieses zurück
         return new Bruch(newZaehler, newNenner);
     }
@@ -45,6 +51,12 @@ public class Bruch {
 
         // berechnet den Nenner
         int newNenner = (nenner * f.nenner);
+
+        // Berücksichtigung von negativen Brüchen
+        if(newZaehler < 0 && newNenner < 0) {
+            newZaehler = newZaehler * -1;
+            newNenner = newNenner * -1;
+        }
 
         // erzeugt neues Bruch-Objekt und gibt dieses zurück
         return new Bruch(newZaehler, newNenner);

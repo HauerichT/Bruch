@@ -5,6 +5,14 @@ public class BruchTest {
         Bruch a = new Bruch(7,5);
         Bruch f = new Bruch(3, 2);
 
+        // Testbrüche negative Brüche
+        // Bruch a = new Bruch(-7,5);
+        // Bruch f = new Bruch(3,-2);
+
+        // Testbrüche negativer Nenner
+        // Bruch a = new Bruch(7,0);
+        // Bruch f = new Bruch(3,2);
+
         // Ausgabe der Brüche zur Übersicht
         System.out.println("Bruch 1: " + a);
         System.out.println("Bruch 2: " + f + '\n');
